@@ -1,0 +1,27 @@
+{
+  "name": "Esc-de-Musica",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000s\u0000c\u0000-\u0000d\u0000e\u0000-\u0000M\u0000u\u0000s\u0000i\u0000c\u0000a\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss  scss/style.scss css/style.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agu1laredu/Esc-de-Musica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agu1laredu/Esc-de-Musica/issues"
+  },
+  "homepage": "https://github.com/Agu1laredu/Esc-de-Musica#readme"
+}

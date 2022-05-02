@@ -1,0 +1,132 @@
+@import "Variables";
+@import "mixin";
+
+
+// Start of index----------------------------
+.logooo {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "Palette Mosaic", cursive;
+    margin-left: -8%;
+    margin-right: -20%;
+}
+.header{
+    width: 100%;
+    & .navBar{
+        flex-direction: center ;
+        max-width: 1080px;
+        margin: auto;
+        color: $lyrics;
+        border-bottom: 7px solid black;
+        display: flex;
+        justify-content: space-around;
+        & a img{
+            width: 4em;
+            border-radius: 100%;
+            line-height: 62px;
+            text-decoration: none;
+        }
+        &__Container{
+            
+            display: none;
+            margin: auto 0;
+            border: none;
+            &--SubMenu{
+                border: 3px solid $principal;
+                text-align: left;
+                padding: 1rem;
+                position: absolute;
+                background-color: white;
+                margin-top: 2rem;
+                position: fixed;
+                left: 50%;
+                top: 1rem;
+                height: calc(100% - 60px);
+                overflow-y: auto;
+                & a{
+                    font-size: 25px;
+                    padding: 10px auto;
+                    margin: 1rem;
+                    text-decoration: none;
+                    font-family: "Palette Mosaic", cursive;
+                } 
+            }
+        }
+        &__Two{
+            margin: auto 0;
+            & .navBar__Items{
+                margin: 0%;
+                padding: 0%;
+                @include flex(default, center, center, default);
+                & a{
+                    color: $principal;
+                    display: inline-block;
+                    padding: 0px 1em;
+                    margin: 5px 10px;
+                    text-decoration: none;
+                    border-radius: 7px;
+                    font-size: 20px;
+                    &:hover{
+                        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+                        transform: translateY(-6%);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// utilice un media para crear el menu hamburguesa desplegable y lograr que el contenido se adapte a version mobile.
+@media (max-width: 800px){
+    .logooo{
+        margin-right: 60%;
+        font-size: 38px;
+    }
+    .navBar__Container{
+        z-index: 2;
+      
+        .fa-solid{
+               margin-left: 100%;
+               font-size: 120px;
+        }
+    }
+    .header{
+        .navBar{
+            
+            &__Two{
+                display: none;
+            }
+            &__Container{
+                display: block;
+                & .icon{
+                    margin: auto;
+                    padding: 50%;
+                    font-size: 25px;
+                }
+                &--SubMenu{
+                    background-color: black;
+                    
+                    display: none;
+                    a{
+                        color: white;
+                    }
+                }
+            }
+            & :hover .navBar__Container--SubMenu{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+}

@@ -1,0 +1,87 @@
+// EXTEND
+
+%sec {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 25%;
+  width: 50%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 15px;
+}
+%hover {
+  -moz-transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
+-webkit-transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
+-o-transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
+-ms-transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
+transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
+  transition: 0.5s;
+}
+%h4 {
+  margin-top: 4%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Palette Mosaic", cursive;
+}
+%aa {
+  text-decoration: none;
+  color: black;
+  width: 65%;
+  &:hover {
+    color: black;
+  }
+}
+
+// FIN EXTEND
+
+.tituloanimado {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Palette Mosaic", cursive;
+  opacity: 0.5;
+}
+
+.section1 {
+  background-image: url(../Imagenes/partitura.avif);
+  margin-top: -6%;
+  @extend %sec;
+
+  &:hover {
+    @extend %hover;
+   
+  }
+
+  h4 {
+    @extend %h4;
+  }
+
+  a {
+    @extend %aa;
+  }
+}
+
+.section2 {
+  background-image: url(../Imagenes/partitura.avif);
+  margin-top: -10%;
+  @extend %sec;
+
+  &:hover {
+    @extend %hover;
+
+   
+  }
+
+  h4 {
+    @extend %h4;
+  }
+
+  a {
+    @extend %aa;
+  }
+}
