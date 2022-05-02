@@ -231,7 +231,7 @@ footer p:hover {
 @media (max-width: 800px) {
   .logooo {
     margin-right: 60%;
-    font-size: 38px;
+    font-size: 60px;
   }
   .navBar__Container {
     z-index: 2;
