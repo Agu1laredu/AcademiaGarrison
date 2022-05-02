@@ -483,4 +483,19 @@ form #boton:hover {
     margin-top: 4%;
   }
 }
+
+#POP {
+  margin-top: -15%;
+}
+
+#rock {
+  margin-top: -20%;
+  margin-bottom: -20%;
+}
+
+@media (max-width: 800px) {
+  #rock {
+    margin-top: 10%;
+  }
+}
 /*# sourceMappingURL=index.css.map */
