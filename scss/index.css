@@ -295,6 +295,8 @@ footer p:hover {
   background-attachment: fixed;
   background-size: cover;
   border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.6);
+          box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .section1:hover, .section2:hover {
@@ -343,6 +345,21 @@ footer p:hover {
   #sueños {
     margin-top: 30%;
   }
+  #avion {
+    height: 150%;
+  }
+}
+
+#avion {
+  background-color: rgba(128, 128, 128, 0.548);
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+#sueños {
+  background-color: rgba(128, 128, 128, 0.548);
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 #section .div1, #sectionn .div1 {
@@ -350,6 +367,9 @@ footer p:hover {
   display: grid;
   -ms-grid-columns: 33% 33% 33%;
       grid-template-columns: 33% 33% 33%;
+  background-color: rgba(128, 128, 128, 0.548);
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 #section .div1 p, #sectionn .div1 p {
@@ -368,10 +388,9 @@ footer p:hover {
 }
 
 #section {
-  padding-top: -40%;
-}
-
-#section {
+  background-color: rgba(128, 128, 128, 0.548);
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
   margin-top: 10%;
   display: -ms-grid;
   display: grid;
@@ -386,6 +405,9 @@ footer p:hover {
 }
 
 #sectionn {
+  background-color: rgba(128, 128, 128, 0.548);
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 40% 40%;

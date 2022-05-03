@@ -3,12 +3,15 @@
  .div1{
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    background-color: rgba(128, 128, 128, 0.548);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     
    
 
 
  p{
     margin-left: 10%;
+    
 }
 }
 
@@ -27,11 +30,11 @@ img {
 
 //  FIN EXTEND
 
-#section{
-    padding-top: -40%;
-}
+
 
 #section{
+    background-color: rgba(128, 128, 128, 0.548);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     margin-top: 10%;
     display: grid;
     grid-template-columns: 40% 40%;
@@ -42,7 +45,8 @@ img {
 }
 
 #sectionn {
-   
+    background-color: rgba(128, 128, 128, 0.548);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content: center;
