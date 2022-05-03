@@ -345,10 +345,12 @@ footer p:hover {
   .section1 {
     margin-left: -15px;
     width: 110%;
+    margin-bottom: 5%;
   }
   .section2 {
     margin-left: -15px;
     width: 110%;
+    margin-bottom: 5%;
   }
 }
 
