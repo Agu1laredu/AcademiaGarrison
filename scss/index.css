@@ -342,6 +342,17 @@ footer p:hover {
 }
 
 @media (max-width: 800px) {
+  .section1 {
+    margin-left: -15px;
+    width: 110%;
+  }
+  .section2 {
+    margin-left: -15px;
+    width: 110%;
+  }
+}
+
+@media (max-width: 800px) {
   #sueños {
     margin-top: 30%;
   }

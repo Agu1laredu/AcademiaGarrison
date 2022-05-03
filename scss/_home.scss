@@ -86,3 +86,17 @@ transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
     @extend %aa;
   }
 }
+
+
+
+@media (max-width: 800px) {
+
+  .section1{
+    margin-left: -15px;
+    width: 110%;
+  }
+  .section2{
+    margin-left: -15px;
+    width: 110%;
+  }
+}
