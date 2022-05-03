@@ -433,6 +433,12 @@ footer p:hover {
           align-items: center;
 }
 
+@media (max-width: 800px) {
+  #sectionn {
+    margin-top: 500%;
+  }
+}
+
 #tanda1 {
   margin-top: -4%;
 }
