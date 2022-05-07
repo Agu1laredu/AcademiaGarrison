@@ -1,6 +1,8 @@
 #tanda1{
     margin-top: -4%;
+    
 }
+
   // EXTEND
 %tanda1{
     z-index: 1;
@@ -71,4 +73,11 @@
         @extend %hoverr;
     }
    
+}
+
+@media (max-width: 800px) {
+    img{
+        height: 20rem;
+        width: 20rem;
+    }
 }

@@ -360,7 +360,7 @@ footer p:hover {
 
 @media (max-width: 800px) {
   #sueñoss img {
-    margin-top: 50%;
+    margin-top: 80%;
   }
   #titulito {
     margin-top: 10%;
@@ -373,7 +373,7 @@ footer p:hover {
 }
 
 #sueñoss {
-  margin-top: 40%;
+  margin-top: 20%;
 }
 
 #sueñoss img {
@@ -470,6 +470,13 @@ footer p:hover {
 
 #tanda2 {
   margin-top: -8%;
+}
+
+@media (max-width: 800px) {
+  img {
+    height: 20rem;
+    width: 20rem;
+  }
 }
 
 /* CONTACTO */
