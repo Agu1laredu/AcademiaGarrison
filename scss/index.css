@@ -359,9 +359,6 @@ footer p:hover {
 }
 
 @media (max-width: 800px) {
-  #avionn {
-    height: 240%;
-  }
   #sueñoss img {
     margin-top: 50%;
   }
@@ -373,9 +370,6 @@ footer p:hover {
 #avionn {
   margin-bottom: 5%;
   height: 200%;
-  background-color: rgba(128, 128, 128, 0.548);
-  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 #sueñoss {
@@ -383,7 +377,7 @@ footer p:hover {
 }
 
 #sueñoss img {
-  width: 300px;
+  width: 400px;
   border-radius: 50px;
   border: 2px solid black;
 }
