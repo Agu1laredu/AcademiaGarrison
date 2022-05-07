@@ -86,13 +86,16 @@ transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
     @extend %aa;
   }
 }
-
+// ESTOS FONDOS ESTAN ACA PARA QUE PISEN LOS QUE VIENEN DESDE LOS OTROS ART Y NO TENER QUE CREAR TODO DE NUEVO
 #tercerart{
   background-image: url(../Imagenes/instrumentos.jpg);
 }
 #cuartoart{
   background-image: url(../Imagenes/evento12.jpg);
+  
 }
+
+// ESTOS FONDOS ESTAN ACA PARA QUE PISEN LOS QUE VIENEN DESDE LOS OTROS ART Y NO TENER QUE CREAR TODO DE NUEVO
 
 @media (max-width: 800px) {
 
