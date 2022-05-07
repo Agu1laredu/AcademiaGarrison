@@ -14,7 +14,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   min-height: 100%;
-  background-image: url(../Imagenes/photo-1453738773917-9c3eff1db985.avif);
+  background-image: url(../Imagenes/photo-1453738773917-9c3eff1db985.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -221,10 +221,6 @@ footer p:hover {
 }
 
 .header .navBar__Two .navBar__Items a:hover {
-  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-  -webkit-transform: translateY(-6%);
-          transform: translateY(-6%);
   cursor: pointer;
 }
 
@@ -315,12 +311,12 @@ footer p:hover {
 
 .section1 a, .section2 a {
   text-decoration: none;
-  color: black;
+  color: #717070;
   width: 65%;
 }
 
 .section1 a:hover, .section2 a:hover {
-  color: black;
+  color: #717070;
 }
 
 .tituloanimado {
@@ -332,13 +328,21 @@ footer p:hover {
 }
 
 .section1 {
-  background-image: url(../Imagenes/partitura.avif);
+  background-image: url(../Imagenes/tucamino.jpg);
   margin-top: -6%;
 }
 
 .section2 {
-  background-image: url(../Imagenes/partitura.avif);
+  background-image: url(../Imagenes/clasicoalpop.jpg);
   margin-top: -10%;
+}
+
+#tercerart {
+  background-image: url(../Imagenes/instrumentos.jpg);
+}
+
+#cuartoart {
+  background-image: url(../Imagenes/evento12.jpg);
 }
 
 @media (max-width: 800px) {
@@ -364,12 +368,14 @@ footer p:hover {
 }
 
 #avion {
+  margin-bottom: 5%;
   background-color: rgba(128, 128, 128, 0.548);
   -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
           box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 #sueños {
+  margin-top: 5%;
   background-color: rgba(128, 128, 128, 0.548);
   -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
           box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);

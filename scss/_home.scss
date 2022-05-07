@@ -31,10 +31,10 @@ transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
 }
 %aa {
   text-decoration: none;
-  color: black;
+  color: rgb(113, 112, 112);
   width: 65%;
   &:hover {
-    color: black;
+    color: rgb(113, 112, 112);
   }
 }
 
@@ -49,7 +49,7 @@ transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
 }
 
 .section1 {
-  background-image: url(../Imagenes/partitura.avif);
+  background-image: url(../Imagenes/tucamino.jpg);
   margin-top: -6%;
   @extend %sec;
 
@@ -68,7 +68,7 @@ transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
 }
 
 .section2 {
-  background-image: url(../Imagenes/partitura.avif);
+  background-image: url(../Imagenes/clasicoalpop.jpg);
   margin-top: -10%;
   @extend %sec;
 
@@ -87,7 +87,12 @@ transform: rotate(323deg) translate(-2px, -39px) skew(-33deg, 40deg);
   }
 }
 
-
+#tercerart{
+  background-image: url(../Imagenes/instrumentos.jpg);
+}
+#cuartoart{
+  background-image: url(../Imagenes/evento12.jpg);
+}
 
 @media (max-width: 800px) {
 
