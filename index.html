@@ -7,6 +7,10 @@
     <link href="scss/index.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- AOS ANIMACIONES -->
+    
+
     <link
       href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap"
       rel="stylesheet"
@@ -66,28 +70,28 @@
     <!-- CONTENIDO DE LA SECCIÓN -->
 
     <section class="section">
-      <section class="section1">
-        <a class="art1" href="ArticulosHome/Articulouno.html">
+      <section data-aos="fade-left" class="section1">
+        <a class="art1"  href="ArticulosHome/Articulouno.html">
           <h4>ENCUENTRA TU CAMINO</h4>
         </a>
       </section>
       
     </section>
     <section class="sectionn" style="margin-top: 3%;">
-      <section class="section2" >
+      <section data-aos="fade-right" class="section2" >
         <a class="art2" href="ArticulosHome/Articulodos.html">
           <h4>DE LO CLASICO AL POP</h4>
         </a>
       </section>
       <br>
 
-      <section id="tercerart" class="section1" style="margin-top: 6%;">
+      <section data-aos="fade-left" id="tercerart" class="section1" style="margin-top: 6%;">
         <a class="art1" href="ArticulosHome/Articulotres.html">
           <h4>LA MÚSICA ES PASIÓN Y DIVERSIÓN</h4>
         </a>
       </section>
       <br>
-      <section id="cuartoart" class="section2 " style="margin-top: 6%;">
+      <section data-aos="fade-right" id="cuartoart" class="section2 " style="margin-top: 6%;">
         <a class="art2" href="ArticulosHome/Articulocuatro.html">
           <h4>DANZA CLÁSICA</h4>
         </a>
@@ -102,5 +106,12 @@
       <p>INSTAGRAM</p>
       <p>YOUTUBE</p>
     </footer>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -7,6 +7,9 @@
     <link href="scss/index.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap"
       rel="stylesheet"
@@ -68,7 +71,7 @@
 
     <section id="section" style="margin-top: -15%" class="section div1">
       <div class="div1">
-        <img
+        <img data-aos="flip-right"
           style="max-width: 150%"
           src="Imagenes/evento1.jpg"
           alt="eventos realizados"
@@ -85,7 +88,7 @@
 
     <section id="sectionn" style="margin-top: 15%" class="sectionn">
       <div class="div1">
-        <img
+        <img data-aos="flip-right"
           style="max-width: 200%"
           src="Imagenes/evento2.jpg"
           alt="eventos realizados"
@@ -99,7 +102,7 @@
       </div>
       <br>
        <div class="div1">
-        <img
+        <img data-aos="flip-right"
           style="max-width: 150%"
           src="Imagenes/canto3.jpg"
           alt="eventos realizados"
@@ -123,5 +126,10 @@
       <p>INSTAGRAM</p>
       <p>YOUTUBE</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
